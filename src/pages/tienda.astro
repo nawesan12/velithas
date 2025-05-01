@@ -1,0 +1,23 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Hero from "../components/Hero.astro";
+import ProductCollection from "../components/ProductCollection.astro";
+import Features from "../components/Features.astro";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body class="bg-[#fdfdfd]">
+        <div class="lg:max-w-6xl mx-auto">
+            <Header />
+            <main>tienda de velas (redireccionar a tienda nube)</main>
+            <Footer />
+        </div>
+    </body>
+</html>
